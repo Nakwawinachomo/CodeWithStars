@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeWithStars - MoodBoard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 CodeWithStars - MoodBoard</h1>
+    <div class="mode-toggle">
+      <label for="darkModeToggle">🌗 Dark Mode</label>
+      <input type="checkbox" id="darkModeToggle">
+    </div>
+    <div class="mood-selector">
+      <button data-mood="happy">😊</button>
+      <button data-mood="meh">😐</button>
+      <button data-mood="sad">😢</button>
+      <button data-mood="angry">😡</button>
+    </div>
+    <textarea id="notes" placeholder="Write your thoughts here..."></textarea>
+    <button id="saveBtn">Save Mood</button>
+    <div id="savedEntries"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
